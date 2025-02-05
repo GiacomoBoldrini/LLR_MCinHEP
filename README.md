@@ -5,6 +5,7 @@ PY3 notebooks for Monte Carlo methods in HEP course at Ecole Polytechnique
 # Exercises 
 
 **1)** Generate pseudo-random numbers distributed according to an exponentil pdf:
+
 $$ f(x; \lambda) = \lambda e^{-\lambda x}, \quad \lambda > 0$$
 - With the hit-or-miss method 
 - With the Inverse Cumulative Distribution Function method 
@@ -12,7 +13,9 @@ $$ f(x; \lambda) = \lambda e^{-\lambda x}, \quad \lambda > 0$$
 <br/><br/>
 
 **2)** Estimate numerically, via Monte Carlo integration, the Cumulative Distribution Function of the Poisson pdf 
+
 $$ P(k; \lambda) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad \lambda=10, \quad k \in \{ 0, 1, 2, 3, ..., 20\} $$
+
 -  Where $CDF(k;\lambda) = \int_{0}^{k} P(k; \lambda) dk$
 
 
